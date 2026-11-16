@@ -1,12 +1,12 @@
 /* Shared brand tokens. Change these after you agree on your brand direction.
    Both the storefront and the live style guide use this file. */
 :root {
-  --color-paper: #f6f5f0;
-  --color-ink: #171a18;
-  --color-muted: #5a615b;
-  --color-line: #d1d5cc;
-  --color-accent: #e3ef56;
-  --color-soft: #e8eae1;
+  --color-paper: #101110;
+  --color-ink: #f5f5f0;
+  --color-muted: #a5aaa4;
+  --color-line: #414641;
+  --color-accent: #c5ff00;
+  --color-soft: #252925;
   --color-white: #fff;
   --color-danger: #992e28;
   --font-body:
@@ -1294,4 +1294,20 @@ legend {
     transition: none !important;
     animation: none !important;
   }
+}
+
+/* FORME accessibility: dark text on electric-lime surfaces */
+.starter-notice,
+.starter-notice a,
+.draft-label,
+.studio-ribbon,
+.studio-ribbon .micro-label,
+.studio-ribbon .cycle {
+  color: #101110;
+}
+
+/* FORME: readable text on lime section */
+.starter-next,
+.starter-next * {
+  color: #101110;
 }
