@@ -84,7 +84,7 @@ Write a short result and link only evidence that exists. A passing browser check
 
 | Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
 | --------- | --------------- | --------------- | ----------------------------------------- |
-| BRAND-001 | Not changed yet | Not created yet | Not run yet; learner observations pending |
+| BRAND-001 | Implemented; issue #1 | PR #2 merged into main | 7 server tests and 10 browser tests passed; 3 GitHub checks passed |
 
 ## Later
 
