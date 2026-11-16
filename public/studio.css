@@ -315,13 +315,14 @@
 }
 
 .coach-quote {
-  background: var(--color-white);
+  background: var(--color-soft);
   border: 1px solid var(--color-line);
   margin: 0;
   padding: 2rem;
 }
 
 .coach-quote .micro-label {
+  color: var(--color-muted);
   font-size: 0.6rem;
 }
 
@@ -537,4 +538,25 @@
   .direction-sketch {
     height: 135px;
   }
+}
+
+/* FORME accessibility: readable quote card */
+.coach-quote .micro-label,
+.coach-quote p,
+.coach-quote footer {
+  color: #101110;
+}
+
+/* FORME: readable text on dark quote card */
+.coach-quote,
+.coach-quote * {
+  color: #f5f5f0;
+}
+
+/* Final studio quote contrast override */
+blockquote.coach-quote,
+blockquote.coach-quote .micro-label,
+blockquote.coach-quote p,
+blockquote.coach-quote footer {
+  color: #f5f5f0 !important;
 }
