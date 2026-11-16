@@ -82,8 +82,8 @@ Keep when:
 
 Write a short result and link only evidence that exists. A passing browser check is evidence for its assertions, not customer research or proof of full accessibility.
 
-| Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
-| --------- | --------------- | --------------- | ----------------------------------------- |
+| Spec ID   | Files                 | Issue / PR             | Actual checks and observations                                     |
+| --------- | --------------------- | ---------------------- | ------------------------------------------------------------------ |
 | BRAND-001 | Implemented; issue #1 | PR #2 merged into main | 7 server tests and 10 browser tests passed; 3 GitHub checks passed |
 
 ## Later
